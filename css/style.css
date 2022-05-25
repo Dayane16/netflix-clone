@@ -1,0 +1,57 @@
+:root{
+    --red:#E50914;
+    --black:#141414;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--black);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+header img{
+    margin:0 ;
+    padding: 0 ;
+    margin-right: 25px ;
+}
+
+header{
+    margin-left: 25px ;
+    margin-right: 25px ;
+}
+
+header nav{
+    margin: 0 ;
+    margin-right: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:white;
+    margin-right: 10px ;
+
+}
+
+.icon {
+    
+    margin: 0;
+}
+
+.img{
+    border-radius: 10%;
+    text-align: end;
+}
+
+
+
