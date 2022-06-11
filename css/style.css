@@ -1,12 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif&family=Poppins&family=Roboto&family=Roboto+Mono:ital,wght@0,200;1,300&family=Sarala:wght@400;700&display=swap');
+
+
 :root{
     --red:#E50914;
     --black:#141414;
 }
 
+
+
 *{
     margin: 0 auto;
     padding: 0 ;
-    box-sizing: border-box;
+   
+    
 }
 
 body{
@@ -21,27 +28,46 @@ header .container{
 }
 
 header img{
+    float: left;
+    border: transparent thin solid;
     margin:0 ;
     padding: 0 ;
     margin-right: 25px ;
 }
 
 header{
+    padding-bottom: 0px;
     margin-left: 25px ;
     margin-right: 25px ;
 }
 
 header nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
     margin: 0 ;
     margin-right: 50px;
 }
 
-header nav a{
+
+ a{
+    
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color:white;
     margin-right: 10px ;
 
 }
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
 
 .icon {
     
@@ -53,5 +79,72 @@ header nav a{
     text-align: end;
 }
 
+/* Filme Principal */
+
+.filme-principal{
+
+    color: white;
+    font-size:16px;
+    background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), linear-gradient(to bottom, transparent 85%, #141414 99%), url(../img/spy-family-background.jpg);
+    height:650px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-main{
+    margin-left: 3%;
+}
+
+.title{
+    margin-bottom: 3%;
+    width: 400px ;
+}
+
+.filme-principal p{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3%;
+    margin-right: 50%
+
+}
+
+.button-s{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(92, 92, 92, 0.60);
+    border:none;
+    padding: 10px 30px; 
+    color: white;
+    margin-right: 3%;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-f{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    padding: 10px 30px; 
+    color: rgb(0, 0, 0);
+    margin-right: 3%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+.button-s:hover{
+    background-color: rgba(92, 92, 92, 0.40);
+}
+.button-f:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.button-s i{
+    margin-right: 5px;
+}
 
 

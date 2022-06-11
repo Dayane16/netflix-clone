@@ -7,20 +7,24 @@
     <title>Netflix</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/img/">
-    <link rel="stylesheet" type="text/css" href="/javascript/">
+    <link rel="stylesheet" type="text/css" href="/javascript/index.js">
     <!--<link rel="stylesheet" type="text/css" href="/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"> -->
 </head>
 <body>
     <header>
         <div class="container">
-            <img  src="/img/Netflix-Logo.wine.svg" width="120">
-            <nav>
-                <a href="/">Inicio</a>
-                <a href="/">Séries</a>
-                <a href="/">Filmes</a>
-                <a href="/">Bombando</a>
-                <a href="/">Minha lista</a>
-            </nav>
+            
+            <nav class="nav-bar">
+                <img  src="/img/Netflix-Logo.wine.svg" width="130">
+                <ul>
+                    <li class="nav-item" ><a href="/">Inicio</a></li>
+                    <li class="nav-item" ><a href="/">Séries</a></li>
+                    <li class="nav-item" ><a href="/">Filmes</a></li>
+                    <li class="nav-item" ><a href="/">Bombando</a></li>
+                    <li class="nav-item" ><a href="/">Minha lista</a></li>
+                </ul>                
+              </nav>  
+
             <div class="icon">
                 <a href="/">
                     <img class="inicio" src="/img/search.svg" width="25">
@@ -36,5 +40,26 @@
         </div>
     </header>
     
+    <main>
+        <div class="filme-principal">
+            <div class="container-main">
+                <img class="title" src="/img/Spy_×_Family_logo.png">      
+                <p>A história acompanha um dos maiores espiões do mundo tendo que se infiltrar 
+                    no país inimigo para eliminar uma figura importante do governo. Como forma 
+                    de aproximação do seu alvo, ele precisa encontrar uma família, e por conta 
+                    disso acaba adotando uma garota, e formando um acordo para se casar com uma mulher local.</p> 
+                    <button role="button" class="button-f">
+                        <i class="fa-solid fa-play"></i>
+                            Assistir
+                    </button>
+                    <button role="button" class="button-s">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Mais Informações
+                    </button>             
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/de5fbbb275.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>
